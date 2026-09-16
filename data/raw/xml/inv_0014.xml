@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-14">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>7815</SHDon>
+      <NLap>2025-01-04</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Điện máy Hoàng Long   </Ten>
+        <MST>0287284632</MST>
+        <DChi>67 Lê Lợi, Quận 1, TP. Hồ Chí Minh</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Đầu tư Phúc Thịnh</Ten>
+        <MST>0831978574</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Dịch vụ bảo trì máy chủ tháng</THHDVu>
+          <DVTinh>Tháng</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>5000000</DGia>
+          <ThTien>50000000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Ổ cứng SSD Samsung 1TB</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>2150000</DGia>
+          <ThTien>43000000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Chuột không dây Logitech M331</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>320000</DGia>
+          <ThTien>6400000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>4</TChat>
+          <THHDVu>Giao hàng tận nơi trong nội thành</THHDVu>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>99400000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>99,400,000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>0053CD6268610CF373</MCCQT>
+</HDon>

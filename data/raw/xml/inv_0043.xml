@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-43">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TMP</KHHDon>
+      <SHDon>3894</SHDon>
+      <NLap>2025-06-04</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Dịch vụ Vận tải Bắc Nam</Ten>
+        <MST>0399588389</MST>
+        <DChi>210 Giải Phóng, Hoàng Mai, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty TNHH Nhà hàng Quê Hương</Ten>
+        <MST>0778276383</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Cước vận chuyển Hà Nội - TP.HCM</THHDVu>
+          <DVTinh>Chuyến</DVTinh>
+          <SLuong>2</SLuong>
+          <DGia>18000000</DGia>
+          <ThTien>36.000.000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>36,000,000</TgTCThue>
+        <TgTThue>2.880.000</TgTThue>
+        <TgTTTBSo>38880000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>0011536E995C508720</MCCQT>
+</HDon>

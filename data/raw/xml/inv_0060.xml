@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-60">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TAA</KHHDon>
+      <SHDon>8867</SHDon>
+      <NLap>31/01/2025</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thương mại Minh Phát</Ten>
+        <MST>0249426036</MST>
+        <DChi>Số 12 Trần Duy Hưng, Cầu Giấy, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty TNHH Nhà hàng Quê Hương</Ten>
+        <MST>0778276383</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Mực in HP 12A</THHDVu>
+          <DVTinh>Hộp</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>450000</DGia>
+          <ThTien>450000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>450000</TgTCThue>
+        <TgTThue>45000</TgTThue>
+        <TgTTTBSo>495000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>001E5EBE5459077299</MCCQT>
+</HDon>

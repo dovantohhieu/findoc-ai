@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-1">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TMP</KHHDon>
+      <SHDon>107</SHDon>
+      <NLap>2025-03-23</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Vật tư Nông nghiệp Đồng Bằng</Ten>
+        <MST>0428688285</MST>
+        <DChi>45 Nguyễn Văn Linh, Ninh Kiều, Cần Thơ</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty TNHH Sản xuất Bao bì An Khang</Ten>
+        <MST>0666293888</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Thuốc bảo vệ thực vật sinh học</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>145000</DGia>
+          <ThTien>7250000</ThTien>
+          <TSuat>5%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Giống lúa OM18</THHDVu>
+          <DVTinh>Kg</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>28000</DGia>
+          <ThTien>84000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Phân bón NPK 16-16-8</THHDVu>
+          <DVTinh>Bao</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>620.000</DGia>
+          <ThTien>620000</ThTien>
+          <TSuat>5%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>4</STT>
+          <THHDVu>Máy bơm nước 2HP</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>3900000</DGia>
+          <ThTien>3900000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>11854000</TgTCThue>
+        <TgTThue>783500</TgTThue>
+        <TgTTTBSo>12,637,500</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00AB9099A435A240AE</MCCQT>
+</HDon>

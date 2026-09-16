@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-25">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>5189</SHDon>
+      <NLap>2025-11-17</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thực phẩm Hưng Yên Xanh</Ten>
+        <MST>0469 138 107</MST>
+        <DChi>KCN Phố Nối A, Văn Lâm, Hưng Yên</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Xây dựng Thăng Long</Ten>
+        <MST>0831408077</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Gạo ST25 túi 5kg</THHDVu>
+          <DVTinh>Túi</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>185000</DGia>
+          <ThTien>3,700,000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Cà phê rang xay Buôn Ma Thuột</THHDVu>
+          <DVTinh>Kg</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>260,000</DGia>
+          <ThTien>5200000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Dầu ăn Tường An 1L</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>58.000</DGia>
+          <ThTien>174000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>4</STT>
+          <THHDVu>Nước mắm Nam Ngư 750ml</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>2</SLuong>
+          <DGia>42000</DGia>
+          <ThTien>84000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>9,158,000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>9158000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00CDFC6EE0E61EDE90</MCCQT>
+</HDon>

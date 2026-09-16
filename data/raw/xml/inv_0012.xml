@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-12">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TMP</KHHDon>
+      <SHDon>7619</SHDon>
+      <NLap>2025-08-15</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thực phẩm Hưng Yên Xanh</Ten>
+        <MST>0469138107</MST>
+        <DChi>KCN Phố Nối A, Văn Lâm, Hưng Yên</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Trường Đại học Công nghiệp Hà Nội</Ten>
+        <MST>0225755627</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Nước mắm Nam Ngư 750ml</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>42,000</DGia>
+          <ThTien>840000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Cà phê rang xay Buôn Ma Thuột</THHDVu>
+          <DVTinh>Kg</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>260000</DGia>
+          <ThTien>260000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Dầu ăn Tường An 1L</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>58000</DGia>
+          <ThTien>174000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>4</STT>
+          <THHDVu>Gạo ST25 túi 5kg</THHDVu>
+          <DVTinh>Túi</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>185.000</DGia>
+          <ThTien>1850000</ThTien>
+          <TSuat>5%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>3124000</TgTCThue>
+        <TgTThue>194420</TgTThue>
+        <TgTTTBSo>3,318,420</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>008EB225790CDB1CA4</MCCQT>
+</HDon>

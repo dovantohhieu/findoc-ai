@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-26">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>1211</SHDon>
+      <NLap>15-08-2025</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Vật tư Nông nghiệp Đồng Bằng</Ten>
+        <MST>0428688285</MST>
+        <DChi>45 Nguyễn Văn Linh, Ninh Kiều, Cần Thơ</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Trường Đại học Công nghiệp Hà Nội</Ten>
+        <MST>0225755627</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Thuốc bảo vệ thực vật sinh học</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>145000</DGia>
+          <ThTien>2900000</ThTien>
+          <TSuat>5%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Máy bơm nước 2HP</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>3900000</DGia>
+          <ThTien>11700000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Giống lúa OM18</THHDVu>
+          <DVTinh>Kg</DVTinh>
+          <SLuong>5</SLuong>
+          <DGia>28000</DGia>
+          <ThTien>140000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>14740000</TgTCThue>
+        <TgTThue>1315000</TgTThue>
+        <TgTTTBSo>16,055,000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00A2F963A33810AE66</MCCQT>
+</HDon>

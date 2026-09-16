@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-68">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <NLap>2025-09-14</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Dịch vụ Vận tải Bắc Nam   </Ten>
+        <MST>0399588389</MST>
+        <DChi>210 Giải Phóng, Hoàng Mai, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Trường Đại học Công nghiệp Hà Nội</Ten>
+        <MST>0225755627</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Phí bốc xếp hàng hóa</THHDVu>
+          <DVTinh>Lần</DVTinh>
+          <SLuong>5</SLuong>
+          <DGia>1200000</DGia>
+          <ThTien>6000000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Cước vận chuyển Hà Nội - TP.HCM</THHDVu>
+          <DVTinh>Chuyến</DVTinh>
+          <SLuong>2</SLuong>
+          <DGia>18,000,000</DGia>
+          <ThTien>36000000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Phí lưu kho</THHDVu>
+          <DVTinh>Pallet/tháng</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>350.000</DGia>
+          <ThTien>17500000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>59,500,000</TgTCThue>
+        <TgTThue>4760000</TgTThue>
+        <TgTTTBSo>64.260.000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>004EEA9DB8F165D779</MCCQT>
+</HDon>

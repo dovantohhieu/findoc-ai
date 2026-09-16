@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-46">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TAA</KHHDon>
+      <SHDon>7056</SHDon>
+      <NLap>05-11-2025</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thực phẩm Hưng Yên Xanh   </Ten>
+        <MST>0469138107</MST>
+        <DChi>KCN Phố Nối A, Văn Lâm, Hưng Yên</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Đầu tư Phúc Thịnh</Ten>
+        <MST>0831978574</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Cà phê rang xay Buôn Ma Thuột</THHDVu>
+          <DVTinh>Kg</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>260000</DGia>
+          <ThTien>260000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Nước mắm Nam Ngư 750ml</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>42000</DGia>
+          <ThTien>42,000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>302000</TgTCThue>
+        <TgTThue>24160</TgTThue>
+        <TgTTTBSo>326160</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00D942644C248D31EC</MCCQT>
+</HDon>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-18">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>5017</SHDon>
+      <NLap>2025-12-06</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thương mại Minh Phát   </Ten>
+        <MST>0249426036</MST>
+        <DChi>Số 12 Trần Duy Hưng, Cầu Giấy, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Trường Đại học Công nghiệp Hà Nội</Ten>
+        <MST>0225755627</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Mực in HP 12A</THHDVu>
+          <DVTinh>Hộp</DVTinh>
+          <SLuong>5</SLuong>
+          <DGia>450000</DGia>
+          <ThTien>2,250,000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Sổ tay bìa da</THHDVu>
+          <DVTinh>Cuốn</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>38000</DGia>
+          <ThTien>760000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Bút bi Thiên Long TL-027</THHDVu>
+          <DVTinh>Hộp</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>55000</DGia>
+          <ThTien>550000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>4</TChat>
+          <THHDVu>Giao hàng tận nơi trong nội thành</THHDVu>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>3560000</TgTCThue>
+        <TgTThue>356000</TgTThue>
+        <TgTTTBSo>3916000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>004639447B2067BDAC</MCCQT>
+</HDon>

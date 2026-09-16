@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-33">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TAA</KHHDon>
+      <SHDon>1495</SHDon>
+      <NLap>2025-02-13</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Công nghệ Sao Việt</Ten>
+        <MST>0133568867</MST>
+        <DChi>Tầng 5, 88 Láng Hạ, Đống Đa, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Xây dựng Thăng Long</Ten>
+        <MST>0831408077</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Ổ cứng SSD Samsung 1TB</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>2150000</DGia>
+          <ThTien>2150000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>2150000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>2150000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>001A85910D5A057C11</MCCQT>
+</HDon>

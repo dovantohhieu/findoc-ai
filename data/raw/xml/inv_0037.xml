@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-37">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TMP</KHHDon>
+      <SHDon>2755</SHDon>
+      <NLap>2025-02-09</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thực phẩm Hưng Yên Xanh   </Ten>
+        <MST>0469 138 107</MST>
+        <DChi>KCN Phố Nối A, Văn Lâm, Hưng Yên</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Xây dựng Thăng Long</Ten>
+        <MST>0831408077</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Nước mắm Nam Ngư 750ml</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>42000</DGia>
+          <ThTien>2,100,000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>2100000</TgTCThue>
+        <TgTThue>168000</TgTThue>
+        <TgTTTBSo>2268000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>009082889BE1CDE87F</MCCQT>
+</HDon>

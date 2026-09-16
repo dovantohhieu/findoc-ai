@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-34">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>3675</SHDon>
+      <NLap>25-02-2025</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Dịch vụ Vận tải Bắc Nam</Ten>
+        <MST>0399588389</MST>
+        <DChi>210 Giải Phóng, Hoàng Mai, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Hợp tác xã Nông nghiệp Tiên Tiến</Ten>
+        <MST>0853290372</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Phí lưu kho</THHDVu>
+          <DVTinh>Pallet/tháng</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>350000</DGia>
+          <ThTien>350.000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Phí bốc xếp hàng hóa</THHDVu>
+          <DVTinh>Lần</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>1200000</DGia>
+          <ThTien>60000000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>60.350.000</TgTCThue>
+        <TgTThue>4828000</TgTThue>
+        <TgTTTBSo>65178000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00BDB025FF2451E5A4</MCCQT>
+</HDon>

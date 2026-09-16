@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-50">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TMP</KHHDon>
+      <SHDon>9235</SHDon>
+      <NLap>2025-01-22</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Dịch vụ Vận tải Bắc Nam</Ten>
+        <MST>0399588389</MST>
+        <DChi>210 Giải Phóng, Hoàng Mai, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Xây dựng Thăng Long</Ten>
+        <MST>0831408077</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Cước vận chuyển Hà Nội - TP.HCM</THHDVu>
+          <DVTinh>Chuyến</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>18,000,000</DGia>
+          <ThTien>18000000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>18000000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>18000000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>007089FC6D2877F5D9</MCCQT>
+</HDon>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-38">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TMP</KHHDon>
+      <SHDon>5180</SHDon>
+      <NLap>19-03-2025</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Điện máy Hoàng Long</Ten>
+        <MST>0287 284 632</MST>
+        <DChi>67 Lê Lợi, Quận 1, TP. Hồ Chí Minh</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Xây dựng Thăng Long</Ten>
+        <MST>0831408077</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Máy tính xách tay Dell Latitude 5440</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>21500000</DGia>
+          <ThTien>1075000000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Ổ cứng SSD Samsung 1TB</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>2150000</DGia>
+          <ThTien>6450000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Chuột không dây Logitech M331</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>320000</DGia>
+          <ThTien>3200000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>4</STT>
+          <THHDVu>Dịch vụ bảo trì máy chủ tháng</THHDVu>
+          <DVTinh>Tháng</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>5000000</DGia>
+          <ThTien>5000000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>1089650000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>1089650000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00B6DD6257FB7D9F1C</MCCQT>
+</HDon>

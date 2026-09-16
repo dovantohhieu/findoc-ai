@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-8">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>6055</SHDon>
+      <NLap>Ngày 26 tháng 05 năm 2025</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Công nghệ Sao Việt   </Ten>
+        <MST>0133568867</MST>
+        <DChi>Tầng 5, 88 Láng Hạ, Đống Đa, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Trường Đại học Công nghiệp Hà Nội</Ten>
+        <MST>0225755627</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Ổ cứng SSD Samsung 1TB</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>2,150,000</DGia>
+          <ThTien>21500000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Dịch vụ bảo trì máy chủ tháng</THHDVu>
+          <DVTinh>Tháng</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>5,000,000</DGia>
+          <ThTien>250000000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>4</TChat>
+          <THHDVu>Giao hàng tận nơi trong nội thành</THHDVu>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>271500000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>271500000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>0000E85ECE0B49452D</MCCQT>
+</HDon>

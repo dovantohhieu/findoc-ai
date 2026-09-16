@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-15">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>4559</SHDon>
+      <NLap>2025-08-04</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Công nghệ Sao Việt</Ten>
+        <MST>0133 568 867</MST>
+        <DChi>Tầng 5, 88 Láng Hạ, Đống Đa, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty TNHH Nhà hàng Quê Hương</Ten>
+        <MST>0778276383</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Máy tính xách tay Dell Latitude 5440</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>21500000</DGia>
+          <ThTien>430,000,000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Ổ cứng SSD Samsung 1TB</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>2150000</DGia>
+          <ThTien>21,500,000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Phần mềm kế toán bản quyền 1 năm</THHDVu>
+          <DVTinh>Gói</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>6.000.000</DGia>
+          <ThTien>6000000</ThTien>
+          <TSuat>0%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>4</TChat>
+          <THHDVu>Giao hàng tận nơi trong nội thành</THHDVu>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>457500000</TgTCThue>
+        <TgTThue>44720000</TgTThue>
+        <TgTTTBSo>502220000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00AD66A1BD93676A02</MCCQT>
+</HDon>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-35">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>6164</SHDon>
+      <NLap>2025-08-03</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Điện máy Hoàng Long</Ten>
+        <MST>0287284632</MST>
+        <DChi>67 Lê Lợi, Quận 1, TP. Hồ Chí Minh</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Đầu tư Phúc Thịnh</Ten>
+        <MST>0831978574</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Dịch vụ bảo trì máy chủ tháng</THHDVu>
+          <DVTinh>Tháng</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>5000000</DGia>
+          <ThTien>100.000.000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Chuột không dây Logitech M331</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>320,000</DGia>
+          <ThTien>960000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Ổ cứng SSD Samsung 1TB</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>2.150.000</DGia>
+          <ThTien>107,500,000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>4</STT>
+          <THHDVu>Phần mềm kế toán bản quyền 1 năm</THHDVu>
+          <DVTinh>Gói</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>6000000</DGia>
+          <ThTien>60000000</ThTien>
+          <TSuat>0%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>4</TChat>
+          <THHDVu>Giao hàng tận nơi trong nội thành</THHDVu>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>268,460,000</TgTCThue>
+        <TgTThue>18696000</TgTThue>
+        <TgTTTBSo>287,156,000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00B423CCDE88575117</MCCQT>
+</HDon>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-61">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>3649</SHDon>
+      <NLap>2025-01-02</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Công nghệ Sao Việt   </Ten>
+        <MST>0133568867</MST>
+        <DChi>Tầng 5, 88 Láng Hạ, Đống Đa, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Hợp tác xã Nông nghiệp Tiên Tiến</Ten>
+        <MST>0853290372</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Dịch vụ bảo trì máy chủ tháng</THHDVu>
+          <DVTinh>Tháng</DVTinh>
+          <SLuong>5</SLuong>
+          <DGia>5000000</DGia>
+          <ThTien>25,000,000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>25000000</TgTCThue>
+        <TgTThue>2500000</TgTThue>
+        <TgTTTBSo>27.500.000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00980CB95C19D45DEB</MCCQT>
+</HDon>

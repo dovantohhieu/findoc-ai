@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-29">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>6798</SHDon>
+      <NLap>2025-12-02</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Điện máy Hoàng Long   </Ten>
+        <MST>0287284632</MST>
+        <DChi>67 Lê Lợi, Quận 1, TP. Hồ Chí Minh</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Hợp tác xã Nông nghiệp Tiên Tiến</Ten>
+        <MST>0853290372</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Ổ cứng SSD Samsung 1TB</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>2150000</DGia>
+          <ThTien>21500000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>21,500,000</TgTCThue>
+        <TgTThue>1.720.000</TgTThue>
+        <TgTTTBSo>23220000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>0074685B98D2FE2FDE</MCCQT>
+</HDon>

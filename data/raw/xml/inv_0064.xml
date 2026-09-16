@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-64">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TAA</KHHDon>
+      <SHDon>7847</SHDon>
+      <NLap>2025-05-05</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thương mại Minh Phát</Ten>
+        <MST>0249426036</MST>
+        <DChi>Số 12 Trần Duy Hưng, Cầu Giấy, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty TNHH Sản xuất Bao bì An Khang</Ten>
+        <MST>0666293888</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Mực in HP 12A</THHDVu>
+          <DVTinh>Hộp</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>450000</DGia>
+          <ThTien>4500000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Giấy in A4 Double A 70gsm</THHDVu>
+          <DVTinh>Ram</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>72,000</DGia>
+          <ThTien>216000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>4.716.000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>4.716.000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>003AE2802354720D2D</MCCQT>
+</HDon>

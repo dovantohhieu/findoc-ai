@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-73">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>5707</SHDon>
+      <NLap>2025-09-01</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thực phẩm Hưng Yên Xanh</Ten>
+        <MST>0469 138 107</MST>
+        <DChi>KCN Phố Nối A, Văn Lâm, Hưng Yên</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty TNHH Nhà hàng Quê Hương</Ten>
+        <MST>0778276383</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Dầu ăn Tường An 1L</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>20</SLuong>
+          <DGia>58000</DGia>
+          <ThTien>1160000</ThTien>
+          <TSuat>8%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>1160000</TgTCThue>
+        <TgTThue>92800</TgTThue>
+        <TgTTTBSo>1252800</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>003B5AE28876492E64</MCCQT>
+</HDon>

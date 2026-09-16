@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-66">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>195</SHDon>
+      <NLap>2025-01-09</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Vật tư Nông nghiệp Đồng Bằng</Ten>
+        <MST>0428688285</MST>
+        <DChi>45 Nguyễn Văn Linh, Ninh Kiều, Cần Thơ</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Đầu tư Phúc Thịnh</Ten>
+        <MST>0831978574</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Thuốc bảo vệ thực vật sinh học</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>145000</DGia>
+          <ThTien>7250000</ThTien>
+          <TSuat>5%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Phân bón NPK 16-16-8</THHDVu>
+          <DVTinh>Bao</DVTinh>
+          <SLuong>2</SLuong>
+          <DGia>620.000</DGia>
+          <ThTien>1240000</ThTien>
+          <TSuat>5%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Giống lúa OM18</THHDVu>
+          <DVTinh>Kg</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>28000</DGia>
+          <ThTien>28,000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>8518000</TgTCThue>
+        <TgTThue>424500</TgTThue>
+        <TgTTTBSo>8942500</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>007FF6B824152AEAEC</MCCQT>
+</HDon>

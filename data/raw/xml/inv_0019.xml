@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-19">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>8043</SHDon>
+      <NLap>2025-02-22</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thương mại Minh Phát</Ten>
+        <MST>0249 426 036</MST>
+        <DChi>Số 12 Trần Duy Hưng, Cầu Giấy, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Đầu tư Phúc Thịnh</Ten>
+        <MST>0831978574</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Sổ tay bìa da</THHDVu>
+          <DVTinh>Cuốn</DVTinh>
+          <SLuong>5</SLuong>
+          <DGia>38000</DGia>
+          <ThTien>190,000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>4</TChat>
+          <THHDVu>Giao hàng tận nơi trong nội thành</THHDVu>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>190,000</TgTCThue>
+        <TgTThue>19000</TgTThue>
+        <TgTTTBSo>209000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00C693DA1139C6A1CA</MCCQT>
+</HDon>

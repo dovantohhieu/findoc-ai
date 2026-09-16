@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-59">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>9762</SHDon>
+      <NLap>2025-02-11</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Dịch vụ Vận tải Bắc Nam   </Ten>
+        <MST>0399588389</MST>
+        <DChi>210 Giải Phóng, Hoàng Mai, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Xây dựng Thăng Long</Ten>
+        <MST>0831408077</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Phí bốc xếp hàng hóa</THHDVu>
+          <DVTinh>Lần</DVTinh>
+          <SLuong>10</SLuong>
+          <DGia>1200000</DGia>
+          <ThTien>12,000,000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Phí lưu kho</THHDVu>
+          <DVTinh>Pallet/tháng</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>350000</DGia>
+          <ThTien>350000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Cước vận chuyển Hà Nội - TP.HCM</THHDVu>
+          <DVTinh>Chuyến</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>18,000,000</DGia>
+          <ThTien>18000000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>30,350,000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>30350000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>0012B2102D940C3503</MCCQT>
+</HDon>

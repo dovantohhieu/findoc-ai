@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-45">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn giá trị gia tăng</THDon>
+      <KHMSHDon>1</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>606</SHDon>
+      <NLap>2025-05-31</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Công nghệ Sao Việt   </Ten>
+        <MST>0133568867</MST>
+        <DChi>Tầng 5, 88 Láng Hạ, Đống Đa, Hà Nội</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty Cổ phần Đầu tư Phúc Thịnh</Ten>
+        <MST>0831978574</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Máy tính xách tay Dell Latitude 5440</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>1</SLuong>
+          <DGia>21500000</DGia>
+          <ThTien>21,500,000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Chuột không dây Logitech M331</THHDVu>
+          <DVTinh>Chiếc</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>320000</DGia>
+          <ThTien>960000</ThTien>
+          <TSuat>10%</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>22460000</TgTCThue>
+        <TgTThue>2,246,000</TgTThue>
+        <TgTTTBSo>24706000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>0084EF4324CC1B4157</MCCQT>
+</HDon>

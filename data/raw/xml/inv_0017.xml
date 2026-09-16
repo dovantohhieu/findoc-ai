@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-17">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TSV</KHHDon>
+      <SHDon>7617</SHDon>
+      <NLap>2025-08-12</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty TNHH Thực phẩm Hưng Yên Xanh   </Ten>
+        <MST>0469138107</MST>
+        <DChi>KCN Phố Nối A, Văn Lâm, Hưng Yên</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Hợp tác xã Nông nghiệp Tiên Tiến</Ten>
+        <MST>0853290372</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Cà phê rang xay Buôn Ma Thuột</THHDVu>
+          <DVTinh>Kg</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>260000</DGia>
+          <ThTien>780000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Gạo ST25 túi 5kg</THHDVu>
+          <DVTinh>Túi</DVTinh>
+          <SLuong>5</SLuong>
+          <DGia>185.000</DGia>
+          <ThTien>925000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>3</STT>
+          <THHDVu>Dầu ăn Tường An 1L</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>2</SLuong>
+          <DGia>58,000</DGia>
+          <ThTien>116000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>1821000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>1821000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00046A0DF5CAFDA613</MCCQT>
+</HDon>

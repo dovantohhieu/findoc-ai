@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HDon>
+  <DLHDon Id="data-16">
+    <TTChung>
+      <PBan>2.1.0</PBan>
+      <THDon>Hóa đơn bán hàng</THDon>
+      <KHMSHDon>2</KHMSHDon>
+      <KHHDon>C25TBB</KHHDon>
+      <SHDon>1246</SHDon>
+      <NLap>2025-10-31</NLap>
+      <DVTTe>VND</DVTTe>
+      <HTTToan>TM/CK</HTTToan>
+    </TTChung>
+    <NDHDon>
+      <NBan>
+        <Ten>Công ty Cổ phần Vật tư Nông nghiệp Đồng Bằng</Ten>
+        <MST>0428 688 285</MST>
+        <DChi>45 Nguyễn Văn Linh, Ninh Kiều, Cần Thơ</DChi>
+      </NBan>
+      <NMua>
+        <Ten>Công ty TNHH Nhà hàng Quê Hương</Ten>
+        <MST>0778276383</MST>
+      </NMua>
+      <DSHHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>1</STT>
+          <THHDVu>Phân bón NPK 16-16-8</THHDVu>
+          <DVTinh>Bao</DVTinh>
+          <SLuong>50</SLuong>
+          <DGia>620000</DGia>
+          <ThTien>31,000,000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+        <HHDVu>
+          <TChat>1</TChat>
+          <STT>2</STT>
+          <THHDVu>Thuốc bảo vệ thực vật sinh học</THHDVu>
+          <DVTinh>Chai</DVTinh>
+          <SLuong>3</SLuong>
+          <DGia>145,000</DGia>
+          <ThTien>435000</ThTien>
+          <TSuat>KCT</TSuat>
+        </HHDVu>
+      </DSHHDVu>
+      <TToan>
+        <TgTCThue>31435000</TgTCThue>
+        <TgTThue>0</TgTThue>
+        <TgTTTBSo>31435000</TgTTTBSo>
+      </TToan>
+    </NDHDon>
+  </DLHDon>
+  <MCCQT>00A6846099F7294951</MCCQT>
+</HDon>
