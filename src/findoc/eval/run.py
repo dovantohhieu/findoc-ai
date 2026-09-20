@@ -46,7 +46,10 @@ def run_one(fn, q: str, k: int) -> tuple[list[str], float]:
     ms = (time.perf_counter() - t0) * 1000
     return [_doc_id(r) for r in rows], ms
 
-
+def recall_at_k(got_doc_ids, gold, k):
+    if not gold:
+        return None
+    return len(set(got_doc_ids[:k]) & gold) / len(gold)
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--queries", default="eval/queries.yaml")
