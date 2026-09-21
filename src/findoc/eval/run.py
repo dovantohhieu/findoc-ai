@@ -14,7 +14,7 @@ from pathlib import Path
 
 import yaml
 
-from findoc.search import search, smart_search
+from findoc.search import search, smart_search, lexical_search
 
 DOC_KEYS = ("doc_id", "docid", "id")
 
@@ -59,7 +59,7 @@ def main() -> int:
     a = ap.parse_args()
 
     qs = yaml.safe_load(Path(a.queries).read_text(encoding="utf-8"))
-    runs = {"smart_search": smart_search}
+    runs = {"smart_search": smart_search, "bm25+filter": lexical_search}
     if a.baseline:
         runs["search (no filter)"] = search
 
