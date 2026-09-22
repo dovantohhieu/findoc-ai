@@ -21,7 +21,7 @@ from findoc.fusion import rrf_fuse
 
 
 def hybrid_search(question: str, top_k: int = 5, filters: dict | None = None,
-                  candidates: int = 50, rerank_n: int = 20,
+                  candidates: int = 50, rerank_n: int = 10,
                   use_reranker: bool = False, log: bool = True) -> list[dict]:
     import time
     t0 = time.perf_counter()

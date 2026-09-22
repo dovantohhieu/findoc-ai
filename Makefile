@@ -17,3 +17,9 @@ reindex-full:
 
 eval:
 	python -m findoc.eval.run --queries eval/queries.yaml --k 5 --out reports/week5_eval.md
+
+test:
+	pytest -m "not eval" -q
+
+test-eval:
+	pytest -m eval -q
