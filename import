@@ -1,0 +1,45 @@
+from __future__ import annotations
+import os
+from typing import Literal
+
+from pydantic import BaseModel, Field
+
+from findoc.agent.llm import chat_model
+from findoc.query_parse import parse_filters
+
+AGG_WORDS = ("tổng cộng", "tổng số", "cộng lại", "bao nhiêu hóa đơn", "bao nhiêu hoá đơn",
+             "số lượng hóa đơn", "trung bình", "nhiều nhất", "lớn nhất", "cao nhất")
+PLURAL = ("các hóa đơn", "các hoá đơn", "những hóa đơn", "tất cả hóa đơn", "tất cả các")
+
+
+def rule_route(q: str, f: dict) -> str | None:
+    ql = q.lower()
+    if f.get("invoice_no"):
+        return "lookup"          # hỏi về MỘT hóa đơn cụ thể, kể cả khi có chữ "tổng"
+    if any(w in ql for w in AGG_WORDS):
+        return "aggregate"
+    if "tổng" in ql and any(p in ql for p in PLURAL):
+        return "aggregate"
+    return None                  # luật không chắc → để LLM quyết
+
+
+class RouteOut(BaseModel):
+    route: Literal["lookup", "out_of_scope"] = Field(
+        description="lookup nếu hỏi về nội dung chứng từ tài chính; out_of_scope nếu không liên quan")
+
+
+ROUTE_PROMPT = """Bạn phân loại câu hỏi gửi tới hệ thống tra cứu hóa đơn, hợp đồng, chứng từ tài chính.
+- lookup: hỏi về nội dung chứng từ (số tiền, mặt hàng, bên mua, bên bán, MST, ngày, điều khoản).
+- out_of_scope: chào hỏi, thời tiết, kiến thức chung, hoặc thứ không thể tra từ chứng từ.
+Câu hỏi: {q}"""
+
+
+def classify(state: dict) -> dict:
+    q = state["question"]
+    f = parse_filters(q)
+    route = rule_route(q, f)
+    if route:
+        return {"route": route, "route_by": "rule", "filters": f}
+    out = chat_model().with_structured_output(RouteOut).invoke(ROUTE_PROMPT.format(q=q))
+    return {"route": out.route, "route_by": "llm", "filters": f}
+

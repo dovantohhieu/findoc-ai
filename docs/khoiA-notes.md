@@ -1,0 +1,13 @@
+## Tuần 8 — gold38, agent chưa có HITL
+- route accuracy: 37/38 (97%)   (luật: 6 câu, LLM: 32 câu)
+- answer_ok: 25/38 (66%)   | fact_acc: 34/50 (68%)
+- recall@5 (lookup): 20/30 (67%)
+- review_rate / catch_rate / precision (REVIEW_LEVELS=low): 2/38 (5%) / 2/13 (15%) / 2/2 (100%)
+- p50: lookup 2826 ms · aggregate 28 ms · out_of_scope 942 ms
+- Chi phí trung bình 1 câu lookup (Langfuse): n/a (lỗi Langfuse: KeyError)
+- Sai route: ['g09']
+- Trả lời sai: ['g02', 'g03', 'g04', 'g06', 'g07', 'g08', 'g09', 'g11', 'g14', 'g15', 'g19', 'g22', 'g27']
+- Nhận xét: router tốt (97%), nút thắt là truy xuất — recall@5 chỉ 67%, phần lớn câu sai bắt nguồn từ đây.
+- Validator catch_rate 15%: ngưỡng tin cậy chưa hiệu chuẩn + không bắt được lỗi "tìm nhầm hóa đơn" (số vẫn có trong nguồn sai).
+- aggregate p50 28ms vs lookup 2826ms (~100x), $0 vs có phí LLM.
+- Việc tiếp: chẩn đoán 10 câu trượt recall (filter / truy xuất / rerank), hiệu chuẩn ngưỡng confidence, sửa luật g09.

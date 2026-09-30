@@ -1,5 +1,6 @@
 from __future__ import annotations
 import argparse, hashlib, json, time
+from decimal import Decimal
 from pathlib import Path
 
 from findoc.db import connect
@@ -12,17 +13,24 @@ def _dtype(doc: dict) -> str:
     return "invoice" if t.endswith("invoice") else t
 
 
+def _to_int(v):
+    """Tiền VND -> int. Nhận được cả Decimal, int, float, "15000000", "15000000.00"."""
+    if v is None or v == "":
+        return None
+    return int(Decimal(str(v)))
+
+
 UPSERT_DOC = """
 INSERT INTO documents (doc_id, doc_type, mst, buyer_mst, issue_date, invoice_no,
-                       source_path, content_hash, n_chunks, indexed_at)
-VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s, now())
+                       source_path, content_hash, n_chunks, total, vat_amount, indexed_at)
+VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, now())
 ON CONFLICT (doc_id) DO UPDATE SET
   doc_type=EXCLUDED.doc_type, mst=EXCLUDED.mst, buyer_mst=EXCLUDED.buyer_mst,
   issue_date=EXCLUDED.issue_date, invoice_no=EXCLUDED.invoice_no,
   source_path=EXCLUDED.source_path, content_hash=EXCLUDED.content_hash,
-  n_chunks=EXCLUDED.n_chunks, indexed_at=now();
+  n_chunks=EXCLUDED.n_chunks, total=EXCLUDED.total, vat_amount=EXCLUDED.vat_amount,
+  indexed_at=now();
 """
-
 INSERT_CHUNK = """
 INSERT INTO chunks (doc_id, chunk_index, text, n_chars, embedding,
                     doc_type, mst, issue_date, invoice_no)
@@ -88,10 +96,11 @@ def main() -> None:
             vecs = embed(texts, batch_size=args.batch_size)
 
             cur.execute(UPSERT_DOC, (
-                doc_id, _dtype(doc), doc.get("seller_mst"),
-                doc.get("buyer_mst"), doc.get("issue_date"), doc.get("invoice_no"),
-                doc.get("source_path"), h, len(texts),
-            ))
+            doc_id, _dtype(doc), doc.get("seller_mst"),
+            doc.get("buyer_mst"), doc.get("issue_date"), doc.get("invoice_no"),
+            doc.get("source_path"), h, len(texts),
+            _to_int(doc.get("total")), _to_int(doc.get("vat_amount")),
+        ))
             cur.execute("DELETE FROM chunks WHERE doc_id = %s;", (doc_id,))
             cur.executemany(INSERT_CHUNK, [
                 (doc_id, i, t, len(t), vecs[i],

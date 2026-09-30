@@ -75,3 +75,63 @@ def generate(state: dict) -> dict:
     msg = chat_model().invoke([("system", SYSTEM), ("user", build_prompt(state["question"], rows))])
     text = _text(msg)
     return {"answer": text, "citations": check_citations(text, len(rows))}
+from findoc.agent.aggregate import run_aggregate
+
+REFUSAL = "Câu hỏi này nằm ngoài phạm vi tra cứu chứng từ tài chính của hệ thống."
+
+
+def aggregate(state: dict) -> dict:
+    agg = run_aggregate(state.get("filters") or {})
+    return {"agg": agg, "answer": agg["text"], "citations": EMPTY_CITES}
+
+
+def refuse(state: dict) -> dict:
+    return {"answer": REFUSAL, "citations": EMPTY_CITES}
+from findoc.agent.checks import ungrounded_numbers
+from findoc.confidence import classify as retrieval_confidence
+
+REVIEW_LEVELS = set(os.getenv("FINDOC_REVIEW_LEVELS", "low").split(","))
+
+
+def validate(state: dict) -> dict:
+    route = state["route"]
+    if route == "out_of_scope":
+        return {"checks": {}, "confidence": {"level": "high", "reasons": []}}
+
+    if route == "aggregate":
+        f, agg = state.get("filters") or {}, state["agg"]
+        reasons, level = [], "high"
+        if not (f.get("mst") or f.get("date_from")):
+            level = "low"
+            reasons.append("câu hỏi tổng hợp nhưng không nêu MST hay khoảng thời gian — có thể hiểu sai phạm vi")
+        if agg["n"] == 0:
+            level = "medium" if level == "high" else level
+            reasons.append("không có hóa đơn nào khớp bộ lọc")
+        return {"checks": {"n": agg["n"]}, "confidence": {"level": level, "reasons": reasons}}
+
+    # nhánh lookup
+    rows = state.get("rows") or []
+    answer, cites = state.get("answer", ""), state.get("citations") or {}
+    base = retrieval_confidence(rows, answer, cites)
+    level, reasons = base["level"], []
+    bad = ungrounded_numbers(answer, " ".join(r["text"] for r in rows))
+    if bad:
+        level = "low"
+        reasons.append("có số không xuất hiện trong nguồn: " + ", ".join(f"{x:,}".replace(",", ".") for x in bad[:3]))
+    if cites.get("invalid"):
+        level = "low"
+        reasons.append("trích dẫn trỏ ra ngoài danh sách nguồn")
+    if level == "medium":
+        reasons.append("điểm liên quan của nguồn tốt nhất chỉ ở mức trung bình")
+    if level == "low" and not reasons:
+        reasons.append("điểm liên quan của nguồn tốt nhất thấp")
+    return {"checks": {"ungrounded": bad, "top_score": base.get("top_score")},
+            "confidence": {"level": level, "reasons": reasons}}
+
+
+def after_validate(state: dict) -> str:
+    return "review" if state["confidence"]["level"] in REVIEW_LEVELS else "done"
+
+
+def finalize(state: dict) -> dict:
+    return {"status": "answered"}
