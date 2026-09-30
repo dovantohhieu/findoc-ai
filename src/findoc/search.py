@@ -22,7 +22,8 @@ from findoc.fusion import rrf_fuse
 
 def hybrid_search(question: str, top_k: int = 5, filters: dict | None = None,
                   candidates: int = 50, rerank_n: int = 10,
-                  use_reranker: bool = False, log: bool = True) -> list[dict]:
+                  use_reranker: bool = False, log: bool = True,
+                  debug: dict | None = None) -> list[dict]:
     import time
     t0 = time.perf_counter()
     f = {**parse_filters(question), **(filters or {})}
@@ -33,6 +34,9 @@ def hybrid_search(question: str, top_k: int = 5, filters: dict | None = None,
 
     fused = rrf_fuse([dense_ids, lex_ids], k=60, top_k=rerank_n)
     rows = fetch_chunks([cid for cid, _ in fused])
+    if debug is not None:
+        debug.update({"filters": f,
+                      "candidate_doc_ids": list(dict.fromkeys(r["doc_id"] for r in rows))})
     rrf = dict(fused)
     for r in rows:
         r["score"] = rrf[r["id"]]
