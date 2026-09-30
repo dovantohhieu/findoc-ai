@@ -1,0 +1,551 @@
+- id: g01
+  question: Hóa đơn 5707 do công ty nào phát hành?
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '5707'
+  split: dev
+  kind: semantic
+  expected_doc_ids:
+  - 0469138107_1C25TSV_00005707
+  source_chunk: 0469138107_1C25TSV_00005707#0
+  gold_answer: Công ty TNHH Thực phẩm Hưng Yên Xanh, MST 0469138107
+  reviewed: false
+- id: g02
+  question: chi phí sản phẩm và lệ phí giá trị gia tăng cho biên lai 606 là bao nhiêu
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 24706000
+  - type: invoice_no
+    value: '606'
+  split: test
+  kind: paraphrase
+  expected_doc_ids:
+  - 0133568867_1C25TSV_00000606
+  source_chunk: 0133568867_1C25TSV_00000606#0
+  gold_answer: Cộng tiền hàng 22.460.000 VND, thuế GTGT 2.246.000 VND
+  reviewed: false
+- id: g03
+  question: Hóa đơn 8043 tính tiền cho cuốn sổ tay da bao nhiêu?
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 209000
+  - type: invoice_no
+    value: '8043'
+  split: dev
+  kind: numeric
+  expected_doc_ids:
+  - 0249426036_1C25TBB_00008043
+  source_chunk: 0249426036_1C25TBB_00008043#1
+  gold_answer: '190.000'
+  reviewed: false
+- id: g04
+  question: tìm hóa đơn từ đầu năm 2025 đến cuối năm 2025
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '4060'
+  split: test
+  kind: date_range
+  expected_doc_ids:
+  - 0249426036_1C25TAA_00004060
+  source_chunk: 0249426036_1C25TAA_00004060#0
+  gold_answer: HĐ 4060 ngày 2025-12-29
+  reviewed: false
+- id: g05
+  question: tìm hóa đơn của công ty vận tải mã số thuế 0399588389
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: mst
+    value: 0399588389
+  - type: invoice_no
+    value: '9235'
+  split: dev
+  kind: item_lookup
+  expected_doc_ids:
+  - 0399588389_2C25TMP_00009235
+  source_chunk: 0399588389_2C25TMP_00009235#0
+  gold_answer: 'Hóa đơn số 9235 ký hiệu - ngày 2025-01-22. Người bán: Công ty TNHH
+    Dịch vụ Vận tải Bắc Nam, MST 0399588389. Người mua: Công ty Cổ phần Xây dựng Thăng
+    Long, MST 0831408077. Cộng tiền hàng 18.000.000 VND, thuế GTGT 0 VND (thuế suất
+    -), tổng tiền thanh toán 18.000.000 VND.'
+  reviewed: false
+- id: g06
+  question: tìm hóa đơn của công ty có mã số thuế 0469138107
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: mst
+    value: 0469138107
+  - type: invoice_no
+    value: '7056'
+  split: test
+  kind: metadata_filter
+  expected_doc_ids:
+  - 0469138107_1C25TAA_00007056
+  source_chunk: 0469138107_1C25TAA_00007056#1
+  gold_answer: HĐ 7056
+  reviewed: false
+- id: g07
+  question: tìm hóa đơn của đơn vị bán hàng có mã số thuế 0428688285
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: mst
+    value: 0428688285
+  - type: invoice_no
+    value: '9022'
+  split: dev
+  kind: metadata_filter
+  expected_doc_ids:
+  - 0428688285_2C25TSV_00009022
+  source_chunk: 0428688285_2C25TSV_00009022#0
+  gold_answer: HĐ 9022
+  reviewed: false
+- id: g08
+  question: hóa đơn 829 tổng giá trị 2 mặt hàng là bao nhiêu
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 162800
+  - type: invoice_no
+    value: '829'
+  split: test
+  kind: numeric
+  expected_doc_ids:
+  - 0249426036_1C25TAA_00000829
+  source_chunk: 0249426036_1C25TAA_00000829#1
+  gold_answer: '148.000'
+  reviewed: false
+- id: g09
+  question: hóa đơn 8654 có tổng cộng bao nhiêu tiền phải trả
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 1041250
+  - type: invoice_no
+    value: '8654'
+  split: dev
+  kind: numeric
+  expected_doc_ids:
+  - 0428688285_1C25TAA_00008654
+  source_chunk: 0428688285_1C25TAA_00008654#0
+  gold_answer: 1.041.250 VND
+  reviewed: false
+- id: g10
+  question: giấy chứng nhận giá trị gia tăng số 1592 của Sao Việt công nghệ phải trả
+    bao nhiêu tiền
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 275000000
+  - type: invoice_no
+    value: '1592'
+  split: test
+  kind: paraphrase
+  expected_doc_ids:
+  - 0133568867_1C25TBB_00001592
+  source_chunk: 0133568867_1C25TBB_00001592#0
+  gold_answer: 275.000.000 VND
+  reviewed: false
+- id: g11
+  question: hóa đơn 5707 giá tiền sản phẩm là bao nhiêu
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 1252800
+  - type: invoice_no
+    value: '5707'
+  split: dev
+  kind: numeric
+  expected_doc_ids:
+  - 0469138107_1C25TSV_00005707
+  source_chunk: 0469138107_1C25TSV_00005707#1
+  gold_answer: 1.160.000
+  reviewed: false
+- id: g12
+  question: tìm các hóa đơn từ tháng 2 năm 2025
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '8043'
+  split: test
+  kind: date_range
+  expected_doc_ids:
+  - 0249426036_1C25TBB_00008043
+  source_chunk: 0249426036_1C25TBB_00008043#0
+  gold_answer: HĐ 8043 ngày 2025-02-22
+  reviewed: false
+- id: g13
+  question: hóa đơn này có phải của công ty sản xuất điện tử không
+  route: lookup
+  expect_refusal: true
+  key_facts: []
+  split: dev
+  kind: negative
+  expected_doc_ids:
+  - 0469138107_1C25TBB_00005132
+  source_chunk: 0469138107_1C25TBB_00005132#0
+  gold_answer: không, đây là hóa đơn của công ty chuyên về lĩnh vực thực phẩm
+  reviewed: false
+- id: g14
+  question: các mặt hàng được bán trong hoá đơn này có giá trị bao nhiêu?
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 9320000
+  - type: invoice_no
+    value: '1792'
+  split: test
+  kind: semantic
+  expected_doc_ids:
+  - 0469138107_2C25TAA_00001792
+  source_chunk: 0469138107_2C25TAA_00001792#1
+  gold_answer: Nước mắm Nam Ngư 750ml thành tiền 420.000; Cà phê rang xay Buôn Ma
+    Thuột thành tiền 5.200.000; Gạo ST25 túi 5kg thành tiền 3.700.000
+  reviewed: false
+- id: g15
+  question: chi phí mua sắm thiết bị từ Hoàng Long ngày tháng 11 năm 2025 là bao nhiêu
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 74470000
+  - type: date
+    value: '2025-11-08'
+  - type: invoice_no
+    value: '5278'
+  split: dev
+  kind: paraphrase
+  expected_doc_ids:
+  - 0287284632_1C25TAA_00005278
+  source_chunk: 0287284632_1C25TAA_00005278#0
+  gold_answer: 67.700.000 VND
+  reviewed: false
+- id: g16
+  question: tài liệu thanh toán cho dịch vụ vận chuyển hàng hóa ngày 26 tháng 1 năm
+    2025 là gì
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: date
+    value: '2025-01-26'
+  - type: invoice_no
+    value: '937'
+  split: test
+  kind: synonym
+  expected_doc_ids:
+  - 0399588389_1C25TMP_00000937
+  source_chunk: 0399588389_1C25TMP_00000937#0
+  gold_answer: Hóa đơn số 937 ký hiệu - ngày 2025-01-26 từ Công ty TNHH Dịch vụ Vận
+    tải Bắc Nam (MST 0399588389) với tổng cộng 51.300.000 VND
+  reviewed: false
+- id: g17
+  question: hóa đơn 1078 có những sản phẩm nào
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '1078'
+  split: dev
+  kind: exact_lookup
+  expected_doc_ids:
+  - 0428688285_1C25TAA_00001078
+  source_chunk: 0428688285_1C25TAA_00001078#1
+  gold_answer: Máy bơm nước 2HP, Thuốc bảo vệ thực vật sinh học, Giống lúa OM18, Phân
+    bón NPK 16-16-8
+  reviewed: false
+- id: g18
+  question: chứng từ bán hàng 3834 của đơn vị nào có tổng phải trả bao nhiêu tiền
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 279644000
+  - type: invoice_no
+    value: '3834'
+  split: test
+  kind: paraphrase
+  expected_doc_ids:
+  - 0133568867_1C25TSV_00003834
+  source_chunk: 0133568867_1C25TSV_00003834#0
+  gold_answer: Chứng từ bán hàng số 3834 của Công ty Cổ phần Công nghệ Sao Việt, người
+    mua là Công ty TNHH Nhà hàng Quê Hương, tổng phải trả 279.644.000 VND
+  reviewed: false
+- id: g19
+  question: hóa đơn này bao gồm những sản phẩm nào
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '2171'
+  split: dev
+  kind: semantic
+  expected_doc_ids:
+  - 0428688285_1C25TAA_00002171
+  source_chunk: 0428688285_1C25TAA_00002171#1
+  gold_answer: Máy bơm nước 2HP và Giống lúa OM18
+  reviewed: false
+- id: g20
+  question: HĐ 5968 MST 0399588389
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: mst
+    value: 0399588389
+  - type: invoice_no
+    value: '5968'
+  split: test
+  kind: exact_lookup
+  expected_doc_ids:
+  - 0399588389_1C25TBB_00005968
+  source_chunk: 0399588389_1C25TBB_00005968#0
+  gold_answer: 'Hóa đơn số 5968 ký hiệu - ngày 2025-08-09. Người bán: Công ty TNHH
+    Dịch vụ Vận tải Bắc Nam, MST 0399588389. Người mua: Công ty Cổ phần Xây dựng Thăng
+    Long, MST 0831408077. Cộng tiền hàng 1.050.000 VND, thuế GTGT 84.000 VND (thuế
+    suất -), tổng tiền thanh toán 1.134.000 VND.'
+  reviewed: false
+- id: g21
+  question: tìm chứng từ bán hàng số 7617 của đơn vị có mã số thuế 0469138107
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: mst
+    value: 0469138107
+  - type: invoice_no
+    value: '7617'
+  split: dev
+  kind: paraphrase
+  expected_doc_ids:
+  - 0469138107_2C25TSV_00007617
+  source_chunk: 0469138107_2C25TSV_00007617#0
+  gold_answer: 'Hóa đơn số 7617 ký hiệu - ngày 2025-08-12. Người bán: Công ty TNHH
+    Thực phẩm Hưng Yên Xanh, MST 0469138107. Người mua: Hợp tác xã Nông nghiệp Tiên
+    Tiến, MST 0853290372. Cộng tiền hàng 1.821.000 VND, thuế GTGT 0 VND (thuế suất
+    -), tổng tiền thanh toán 1.821.000 VND.'
+  reviewed: false
+- id: g22
+  question: tìm hóa đơn có mặt hàng nông sản và dược phẩm nông nghiệp
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '8654'
+  split: test
+  kind: synonym
+  expected_doc_ids:
+  - 0428688285_1C25TAA_00008654
+  source_chunk: 0428688285_1C25TAA_00008654#1
+  gold_answer: HĐ 8654
+  reviewed: false
+- id: g23
+  question: HĐ 7847 của công ty nào phát hành
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '7847'
+  split: dev
+  kind: exact_lookup
+  expected_doc_ids:
+  - 0249426036_2C25TAA_00007847
+  source_chunk: 0249426036_2C25TAA_00007847#0
+  gold_answer: Công ty TNHH Thương mại Minh Phát, MST 0249426036
+  reviewed: false
+- id: g24
+  question: tìm hóa đơn của công ty nông sản Đồng Bằng mã số thuế 0428688285
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: mst
+    value: 0428688285
+  - type: invoice_no
+    value: '3439'
+  split: test
+  kind: item_lookup
+  expected_doc_ids:
+  - 0428688285_1C25TBB_00003439
+  source_chunk: 0428688285_1C25TBB_00003439#0
+  gold_answer: Hóa đơn số 3439 ký hiệu - ngày 2025-10-29
+  reviewed: false
+- id: g25
+  question: tìm hóa đơn do người bán có mã số thuế 0428688285 phát hành
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: mst
+    value: 0428688285
+  - type: invoice_no
+    value: '9940'
+  split: dev
+  kind: metadata_filter
+  expected_doc_ids:
+  - 0428688285_1C25TMP_00009940
+  source_chunk: 0428688285_1C25TMP_00009940#0
+  gold_answer: HĐ 9940 | MST 0428688285 | 2025-03-15
+  reviewed: false
+- id: g26
+  question: tìm hóa đơn từ tháng 4 năm 2025
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '8117'
+  split: test
+  kind: metadata_filter
+  expected_doc_ids:
+  - 0133568867_2C25TSV_00008117
+  source_chunk: 0133568867_2C25TSV_00008117#1
+  gold_answer: HĐ 8117 | MST 0133568867 | 2025-04-06
+  reviewed: false
+- id: g27
+  question: tìm hóa đơn của công ty vận chuyển hàng hóa Bắc Nam
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '9762'
+  split: dev
+  kind: item_lookup
+  expected_doc_ids:
+  - 0399588389_2C25TBB_00009762
+  source_chunk: 0399588389_2C25TBB_00009762#0
+  gold_answer: HĐ 9762 | MST 0399588389 | 2025-02-11
+  reviewed: false
+- id: g28
+  question: hóa đơn 9704 có những sản phẩm nào
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '9704'
+  split: test
+  kind: exact_lookup
+  expected_doc_ids:
+  - 0469138107_1C25TBB_00009704
+  source_chunk: 0469138107_1C25TBB_00009704#1
+  gold_answer: Gạo ST25 túi 5kg với thành tiền 925.000 và Cà phê rang xay Buôn Ma
+    Thuột với thành tiền 5.200.000
+  reviewed: false
+- id: g29
+  question: hóa đơn 3439 có những sản phẩm nào
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '3439'
+  split: dev
+  kind: exact_lookup
+  expected_doc_ids:
+  - 0428688285_1C25TBB_00003439
+  source_chunk: 0428688285_1C25TBB_00003439#1
+  gold_answer: Máy bơm nước 2HP (thành tiền 195.000.000), Phân bón NPK 16-16-8 (thành
+    tiền 1.240.000), Thuốc bảo vệ thực vật sinh học (thành tiền 7.250.000)
+  reviewed: false
+- id: g30
+  question: tôi muốn tìm hóa đơn có liên quan đến thiết bị lưu trữ dữ liệu hãng Samsung
+  route: lookup
+  expect_refusal: false
+  key_facts:
+  - type: invoice_no
+    value: '1495'
+  split: test
+  kind: semantic
+  expected_doc_ids:
+  - 0133568867_2C25TAA_00001495
+  source_chunk: 0133568867_2C25TAA_00001495#1
+  gold_answer: HĐ 1495
+  reviewed: false
+- id: g31
+  question: Tổng tiền thanh toán các hóa đơn của MST 0469138107 trong tháng 08/2025
+    là bao nhiêu?
+  route: aggregate
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 28441320
+  split: dev
+  expected_doc_ids: []
+  gold_answer: 4 hóa đơn, tổng 28441320 đồng
+  reviewed: true
+- id: g32
+  question: Tổng tiền thanh toán các hóa đơn của MST 0469138107 trong tháng 11/2025
+    là bao nhiêu?
+  route: aggregate
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 10619160
+  split: test
+  expected_doc_ids: []
+  gold_answer: 3 hóa đơn, tổng 10619160 đồng
+  reviewed: true
+- id: g33
+  question: Có bao nhiêu hóa đơn trong tháng 01/2025?
+  route: aggregate
+  expect_refusal: false
+  key_facts:
+  - type: amount
+    value: 10
+  split: dev
+  expected_doc_ids: []
+  gold_answer: 10 hóa đơn
+  reviewed: true
+- id: g34
+  question: Xin chào
+  route: out_of_scope
+  expect_refusal: true
+  key_facts: []
+  split: test
+  expected_doc_ids: []
+  gold_answer: Ngoài phạm vi hệ thống.
+  reviewed: true
+- id: g35
+  question: Thời tiết Hà Nội hôm nay thế nào?
+  route: out_of_scope
+  expect_refusal: true
+  key_facts: []
+  split: dev
+  expected_doc_ids: []
+  gold_answer: Ngoài phạm vi hệ thống.
+  reviewed: true
+- id: g36
+  question: Cách nấu phở bò?
+  route: out_of_scope
+  expect_refusal: true
+  key_facts: []
+  split: test
+  expected_doc_ids: []
+  gold_answer: Ngoài phạm vi hệ thống.
+  reviewed: true
+- id: g37
+  question: Tổng tiền thanh toán của hóa đơn số 9999999 là bao nhiêu?
+  route: lookup
+  expect_refusal: true
+  key_facts: []
+  split: dev
+  expected_doc_ids: []
+  gold_answer: Không tìm thấy hóa đơn số 9999999.
+  reviewed: true
+- id: g38
+  question: Tổng tiền thanh toán của hóa đơn số 8888888 là bao nhiêu?
+  route: lookup
+  expect_refusal: true
+  key_facts: []
+  split: test
+  expected_doc_ids: []
+  gold_answer: Không tìm thấy hóa đơn số 8888888.
+  reviewed: true
